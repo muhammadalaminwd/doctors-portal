@@ -7,42 +7,42 @@ const ContactForm = () => {
     <section style={{
         background: `url(${appointment})`
     }}>
-    <div class="hero min-h-screen ">
-    <div class="hero-content flex-col lg:flex-row-reverse">
-      <div class="text-center lg:text-left">
+    <div className="hero min-h-screen ">
+    <div className="hero-content flex-col lg:flex-row-reverse">
+      <div className="text-center lg:text-left">
         <h3 className="text-2xl font-bold text-primary">Contact us</h3>
-        <h1 class="text-5xl text-white">Stay Connected with us</h1>
+        <h1 className="text-5xl text-white">Stay Connected with us</h1>
       </div>
-      <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-        <div class="card-body">
-          <div class="form-control">
-            <label class="label">
-              <span class="label-text">Email</span>
+      <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+        <div className="card-body">
+          <div className="form-control">
+            <label className="label">
+              <span className="label-text">Email</span>
             </label>
             <input
               type="text"
               placeholder="email"
-              class="input input-bordered"
+              className="input input-bordered"
             />
           </div>
-          <div class="form-control">
-            <label class="label">
-              <span class="label-text">Subject</span>
+          <div className="form-control">
+            <label className="label">
+              <span className="label-text">Subject</span>
             </label>
             <input
               type="text"
               placeholder="subject"
-              class="input input-bordered"
+              className="input input-bordered"
             />
           </div>
-          <div class="form-control">
+          <div className="form-control">
             <input
               type="textarea"
               placeholder="your message"
-              class="input input-bordered"
+              className="input input-bordered"
             />
           </div>
-          <div class="form-control mt-6">
+          <div className="form-control mt-6">
             <PrimaryButton>Submit</PrimaryButton>
           </div>
         </div>

@@ -13,7 +13,7 @@ const BookingModal = ({ date, treatment, setTreatment }) => {
   const handleBooking = (event) => {
     event.preventDefault();
     const slot = event.target.slot.value;
-
+    
     const booking = {
       treatmentId: _id,
       treatment: name,

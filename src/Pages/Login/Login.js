@@ -22,7 +22,7 @@ const Login = () => {
     error,
   ] = useSignInWithEmailAndPassword(auth);
 
-  const [token] = useToken(user || user);
+  const [token] = useToken(user || gUser);
 
   let signInError;
 
